@@ -98,9 +98,12 @@ while (i <= 9) {
 let non=['ana','jose','Carlos']
 
 console.log(nom[0])
-console.log(nom,length)
+console.log(nom.length)
 
 for(let i=0;i<non,length;i++){
     console.log(nom(i))
 }
 
+for(let x in nom){
+    console.log(nom(x))
+}
